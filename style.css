@@ -1,0 +1,97 @@
+@import url("css/normalize.css");
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.clearfix::after,
+.header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.375;
+    margin: 0;
+}
+
+.page__cell{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header{
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+}
+
+.phone-number, .email{
+    text-decoration: none;
+}
+
+.phone-number{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.email{
+    color: #888;
+    font-size: 1rem;
+}
+
+.logo__img{
+    width: 45%;
+    height: 45%;
+}
+
+.header__logo{
+    float: left;
+}
+
+.header__contanct{
+    float: right;
+    text-align: right;
+}
+
+.nav{
+    font-size: 1.2rem;
+}
+
+.nav__list{
+    list-style: none;
+    margin: 0;
+    margin-top: 1rem;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.link{
+    color: black;
+    text-decoration: underline;
+}
+
+.link:hover{
+    color: coral;
+}
+
+.nav__link{
+    text-decoration: none;
+}
