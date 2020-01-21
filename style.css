@@ -97,3 +97,11 @@ body{
     padding: 1.35rem;
     display: block;
 }
+
+.slider__item{
+    padding-top: 35%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
