@@ -209,7 +209,10 @@ body {
 }
 
 .advantage{
-    display: flex;
-    flex-direction: row;
-
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
 }
