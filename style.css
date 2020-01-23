@@ -154,10 +154,6 @@ body {
     position: relative;
 }
 
-.grid__item:nth-of-type(2n) {
-    margin-right: 0;
-}
-
 .grid__overlay {
     position: absolute;
     top: 0;
@@ -215,4 +211,48 @@ body {
 	-webkit-flex-direction: row;
 	-ms-flex-direction: row;
 	flex-direction: row;
+}
+
+.advantage__item{
+    text-align: center;
+    width: 28%;
+    margin-right: 8%;
+
+}
+
+.grid__item:nth-of-type(2n),
+.advantage__item:last-child{
+    margin-right: 0;
+}
+
+.advantage__headline{
+    font-size: 1.25rem;
+    margin: 0 0 0.8rem;
+}
+
+.advantage__icon{
+    margin-bottom: 1.2rem;
+}
+
+.page__row--footer{
+    background: grey;
+    color: white;
+    margin-top: 4.4rem;
+}
+
+.footer__copyright{
+    text-align: right;
+}
+
+.footer__link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer__link:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    padding: 1.2rem 0;
 }
