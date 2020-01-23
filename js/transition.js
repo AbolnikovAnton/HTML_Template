@@ -2,8 +2,8 @@ $(function(){
     $('a[href^="#"]').on('click', function(event) {
       event.preventDefault();
       
-      var sc = $(this).attr("href"),
-          dn = $(sc).offset().top;
-      $('html, body').animate({scrollTop: dn}, 1000);
+      let div = $(this).attr("href"),
+          divPosition = $(div).offset().top;
+      $('html, body').animate({scrollTop: divPosition}, 1000);
     });
   });
