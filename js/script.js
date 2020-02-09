@@ -7,4 +7,9 @@ $(document).ready(function(){
     autoplayHoverPause: true,
     smartSpeed: 700
   });
+
+  $(".btn-nav").on("click", function(){
+    let target = $(this).data("target");
+    $(target).toggleClass("nav__list--open");
+  });
 });

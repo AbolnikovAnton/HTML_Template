@@ -3,11 +3,13 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>First html+css</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic"
         rel="stylesheet">
     <link rel="stylesheet" href="./lib/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body class="page">
@@ -34,7 +36,14 @@
 
         <div class="page__cell">
             <nav class="nav">
-                <ul class="nav__list">
+                <div class="nav__btn">
+                    <button type="button" class="btn-nav" data-target="#nav-main">
+                        <span class="btn-nav__line"></span>
+                        <span class="btn-nav__line"></span>
+                        <span class="btn-nav__line"></span>
+                    </button>
+                </div>
+                <ul class="nav__list" id="nav-main" >
                     <li class="nav__item">
                         <a href="#" class="nav__link link"> Main </a>
                     </li>
@@ -196,8 +205,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./lib/owlcarousel/owl.carousel.js"></script>
     <script src="./lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="./js/owlCarousel.js"></script>
+    <script src="./js/script.js"></script>
     <script src="./js/transition.js"></script>
 </body>
 
 </html>
+
